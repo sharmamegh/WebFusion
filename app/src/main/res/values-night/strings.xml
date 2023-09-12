@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebFusion</string>
+    <string name="url_box_placeholder">Enter URL To Proceed</string>
+    <string name="splash_button">Fuse</string>
+</resources>
