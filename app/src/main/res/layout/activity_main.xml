@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black_shade_1"
+    android:background="@color/BlackKnight"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -28,7 +28,7 @@
             android:layout_marginTop="100dp"
             android:layout_gravity="center"
             android:layout_marginBottom="50dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@mipmap/splash_logo_0_foreground"
             app:shapeAppearanceOverlay="@style/roundedCornersImageView" />
 
         <EditText
@@ -44,7 +44,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/BlackKnight"
             android:maxLines="1"
             android:ems="15"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -61,6 +61,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/splash_button"
+            android:textColor="@color/BlackKnight"
             android:background="@drawable/shape_drawable_rounded_corners"
             app:layout_constraintTop_toBottomOf="@id/editTextUrl"
             app:layout_constraintStart_toStartOf="parent" />
